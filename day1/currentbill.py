@@ -1,0 +1,11 @@
+cr =  (input("Enter the consumer  number"))
+cn =  (input("Enter the consumer name"))
+pmr=int(input("Enter present month reading :"))
+lmr=int(input("Enter last month reading :"))
+print("consumer  number :",cr)
+print("consumer name :",cn)
+print("present month reading:",pmr)
+print("last month reading:",lmr)
+tu = pmr-lmr
+print("total units",tu)
+print("currnet bill",tu*3.80)
